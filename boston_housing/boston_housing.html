@@ -13850,7 +13850,7 @@ kjQ2dk5JkiRJkiRpbOyckiRJkiRJ0tjYOSVJkiRJkqSx+Q9xN+V72u5n0gAAAABJRU5ErkJggg==
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer: </strong>In the last graph, The max_depth is 10. If more training points are added, The score of training curve will decrease. For testing curve it will increase rapidly in the beginning but will converge to a particular score. 
-More training points will definitely benefit the model but the accuracy will keep on increasing only a little bit.</p>
+More training points will not benefit the model as the score degraded a little bit as the number of sample increased.</p>
 
 </div>
 </div>
@@ -14648,7 +14648,7 @@ IVdGnxYeQQAAAABJRU5ErkJggg==
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer: </strong> k-fold cross validation technique divides the data set into k number of partitions and uses one of them as a testing set and the remaining as training set. This repeats for k-1 times and at each iteration a different set from the k sets becomes a test set. The score from k-1 iterations is averaged to get a final score. Using this technique allows the whole set to be used for training as well as the testing set. If we do parameter tuning on only one data split, it is possible that the data is arranged in some order of values. If we train on one set of values but the contents of test set are very different from the training set, it will result in low accuracy. That is why it is important to shuffle the data and use more than one split of train and test sets.</p>
+<p><strong>Answer: </strong> k-fold cross validation technique divides the data set into k number of partitions and uses one of them as a testing set and the remaining as training set. This repeats for k times and at each iteration a different set from the k sets becomes a test set. The score from k iterations is averaged to get a final score. Using this technique allows the whole set to be used for training as well as the testing set. If we do parameter tuning on only one data split, it is possible that the data is arranged in some order of values. If we train on one set of values but the contents of test set are very different from the training set, it will result in low accuracy. That is why it is important to shuffle the data and use more than one split of train and test sets.</p>
 
 </div>
 </div>
